@@ -4,7 +4,7 @@ tags: dev tools, developer tools, css selectors, fonts, typography, color
 resources: 1
 ---
 
-# yEtsy
+# Zetsy
 
 ...
 
@@ -14,4 +14,4 @@ resources: 1
 
 ## Resources
 
-[yEtsy live page example](http://flatiron-school-curriculum.github.io/fe-yetsy)
+[Zetsy live page example](http://flatiron-school-curriculum.github.io/fe-zetsy)
