@@ -1,8 +1,4 @@
----
-languages: html, css
-tags: dev tools, developer tools, css selectors, fonts, typography, color, kids
-resources: 4
----
+
 
 # Zetsy
 
