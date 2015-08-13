@@ -8,6 +8,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+  color: rgb(152,173,166);
 }
 
 .wrapper {
@@ -15,6 +16,11 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+.hr {
+  width: 1px;
+  color: rgb(152,173,166);
 }
 
 /* Write all remaining styles here */
