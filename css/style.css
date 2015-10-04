@@ -1,6 +1,8 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
+@font-face {
+    font-family: Baskerville;
+    src: url("fonts/Baskerville.ttc");
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +19,84 @@ body {
 	padding: 0 45px 20px;
 }
 
+* {
+  color: rgb(92, 107, 110);
+}
+
 /* Write all remaining styles here */
+
+header h1 {
+  font-family: Baskerville;
+  font-size: 5em;
+  color: rgb(140, 158, 152);
+  font-weight: 100;
+  margin: 0;
+}
+
+header hr {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  border-color: rgb(191, 192, 191);
+  width: 100%;
+}
+
+#image-box img {
+  width: 950px;
+  border: 5px solid rgb(137, 156, 150);
+}
+
+a:link {
+    color: rgb(59, 123, 224);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+p {
+  font-size: .98em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+#press img {
+  float: left;
+  padding: 1px;
+  border: 5px solid rgb(204, 204, 204);
+  margin: 0 2px 0 2px;
+  clear: right;
+  transition: border-color .5s;
+}
+
+#press img:hover {
+  border-color: #71817C;
+}
+
+#press-links {
+  float: none;
+  min-height: 160px;
+}
+
+footer p {
+  font-size: .8em;
+  text-align: right;
+  margin-top: 25px;
+}
