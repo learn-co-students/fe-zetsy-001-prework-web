@@ -1,6 +1,6 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 /*////////// Global Styles //////////*/
 
@@ -11,10 +11,49 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 940px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: normal;
+  font-size: 64px;
+  color: rgb(156,174,170);
+}
+
+#necklace {
+  border: 5px solid rgb(153,175,168);
+}
+
+h3 {
+  font-size: 32px;
+  color: rgb(115,129,124);
+}
+
+p {
+  font-size: 15px;
+  color: rgb(93,98,97);
+}
+
+#learn-more {
+  text-decoration: none;
+}
+
+p:last-of-type {
+  font-size: 50%;
+  text-align: right;
+}
+
+.press {
+  padding: 0.25px solid #fff;
+  border: 3px solid rgb(201,206,206);
+}
+
+.press:hover {
+  border: 3px solid rgb(111,128,124);
+}
