@@ -2,6 +2,7 @@
 
 /* link the web font used for the level 1 heading here */
 
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -15,6 +16,53 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+#main {
+  border: 5px rgb(152,173,166) solid;
+}
+
+#logo {
+  font: bold 5em Baskerville, serif;
+  color: rgba(155,170,166,1) ;
+  margin: 0 0 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#logolink{
+  text-decoration: none;
+}
+
+#logo:hover{
+  color: rgb(111,127,122);
+}
+
+h2 {
+  font-size: 2em;
+  color: rgba(114,130,134,1);
+}
+
+#wiki {
+  text-decoration: none;
+}
+
+#wiki:hover{
+  color:blue;
+  text-decoration: underline;
+}
+
+#footsie{
+  text-align: right;
+}
+
+.press{
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+.press:hover{
+  border-color: rgb(111,127,122);
 }
 
 /* Write all remaining styles here */
