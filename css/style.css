@@ -2,19 +2,104 @@
 
 /* link the web font used for the level 1 heading here */
 
+/*
+
+Not needed, as the font file 'Baskerville' is included in a subfolder.
+But, if you really wanted to, the import would be:
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+(Libre Baskerville is the only hit when you search Baskerville.)
+
+*/
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	margin: 8px;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 20px;
 }
 
-/* Write all remaining styles here */
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+h1 {
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+header h1 a {
+	color: #95AAA9;
+	text-decoration: none;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	transition: color 1s ease;
+}
+
+header h1 a:hover {
+	color: #777;
+}
+
+#learn-more {
+	color: #1783bb;
+	text-decoration: none;
+	-webkit-transition: color 2s ease;
+	-moz-transition: color 2s ease;
+	-o-transition: color 2s ease;
+	transition: color 2s ease;
+}
+
+#learn-more:hover {
+	text-decoration: underline;
+	color: #777;
+}
+
+#featured-item img {
+	border: 5px #95AAA9 solid;
+}
+
+h2 {
+	color: #708077;
+	font-size: 2em;
+}
+
+#press-info {
+	margin-bottom: 20px;
+}
+
+#press-info img {
+	border: 5px #ccc solid;
+	padding: 1px;
+	-webkit-transition: border 2s ease;
+	-moz-transition: border 2s ease;
+	-o-transition: border 2s ease;
+	transition: border 2s ease;
+}
+
+#press-info img:hover {
+	border: 5px #708077 solid;
+}
+
+.picayune {
+	font-size: 0.8em;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
