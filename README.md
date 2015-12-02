@@ -19,3 +19,5 @@ This challenge asks you to build the Zetsy site page writing your own HTML & CSS
  * [Bonus: CSS3 Transitions](http://css-tricks.com/almanac/properties/t/transition/)
  * [Dev Tools Tutorial](http://code.tutsplus.com/tutorials/chrome-dev-tools-markup-and-style--net-27149)
  * [Digital Color Meter Tutorial](http://www.techrepublic.com/blog/apple-in-the-enterprise/discover-the-digitalcolor-meter-tool-on-your-mac/#)
+
+<a href='https://learn.co/lessons/fe-zetsy' data-visibility='hidden'>View this lesson on Learn.co</a>
