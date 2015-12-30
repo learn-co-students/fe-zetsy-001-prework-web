@@ -21,7 +21,7 @@ Mary's jewelry has received recognition, and been featured in the National Museu
 Press
 
 <!-- press images -->
-[nmai-logo.png]<!-- links to: http://nmai.si.edu/home/ -->
+[nmai-logo.png]<!-- links to: http://nmai.si.edu -->
 [times-logo.png]<!-- links to: http://www.nytimes.com/pages/t-magazine/ -->
 [sedona-logo.png]<!-- links to: http://www.sedonamonthly.com -->
 [bergdorf-logo.png]<!-- links to: http://www.bergdorfgoodman.com/ -->
