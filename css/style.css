@@ -31,6 +31,10 @@ h1 a {
   color: rgb(152,173,166)
 }
 
+h1 a:hover{
+  color: #777;
+}
+
 #featured-image img {
   display: block;
   border: 5px rgb(152,173,166) solid;
