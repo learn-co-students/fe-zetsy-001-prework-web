@@ -25,6 +25,10 @@ body {
 
 img {
   border: 5px solid rgb(204,204,204);
+  -webkit-transition: border-color 1s ease;
+  -moz-transition: border-color 1s ease;
+  -o-transition: border-color 1s ease;
+  transition: border-color 1s ease;
 }
 
 header img {
@@ -47,6 +51,10 @@ a:hover img {
 header a {
   text-decoration: none;
   color: rgb(152,176,163);
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
 }
 
 header a:hover {
