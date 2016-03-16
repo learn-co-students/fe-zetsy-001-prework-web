@@ -2,7 +2,7 @@
 
 /* link the web font used for the level 1 heading here */
 
-/*////////// Global Styles //////////*/
+/*//////// // Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
@@ -18,3 +18,16 @@ body {
 }
 
 /* Write all remaining styles here */
+
+p, h1, h2 {
+  color: gray;
+}
+
+#jumbo {
+  border-color; gray;
+  border: 2px;
+}
+
+footer {
+  margin: 0% 0% 0% 80%
+}
