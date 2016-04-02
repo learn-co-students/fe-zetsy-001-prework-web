@@ -17,4 +17,51 @@ body {
 	padding: 0 45px 20px;
 }
 
+div{
+
+	display;block;
+}
 /* Write all remaining styles here */
+header a{
+color: rgb(152,173,166);
+}
+a{
+background:transparent;
+}
+
+h2{
+	color:rgb(111,127,122);
+	font-size:2em;
+
+}
+p{
+
+	color:#555;
+	font-size:1em;
+	margin:0 0 20px 0;
+}
+
+#featured a {
+	color: #1783bb;
+
+}
+
+#press{
+	margin-bottom: 20px;
+}
+
+#press img{
+
+	border:5px #ccc solid;
+	padding:1px;
+}
+footer{
+	text-align:right;
+	background: #fff;
+}
+.small{
+	font-size: 0.8;
+}
+html{
+	font:sans-serif;
+}
