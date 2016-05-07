@@ -1,20 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
+
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
+html {
+  font-family: sans-serif;
+  display: block;
+}
+
+html [Atributes Style] {
+  -webkit-locale: "en";
+}
+
+element.style {
+  display: block;
+} 
+
+head {
+  display: none;
+}
+
+meta {
+  display: none;
+}
+
+title {
+  display: none;
+}
+
+link {
+  display: none;
+}
+
+script {
+  display: none;
+}
+
+style {
+  display: none;
+}
+
+h1 {
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Libre Baskerville', serif;
+  border-bottom: 1px solid;
+  border-color: #ccc;
+}
+
+h1 {
+  display: block;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+header a {
+  color: #98ADA6;
+  text-decoration: none;
+}
+header a:hover {
+  color: #6F7F7A;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+a {
+  background: transparent;
+
+}
+
+a:-webkit-any-link {
+  cursor: auto;
+  
+}
+
+/* #featured */
+
+img {
+  
+}
+
+#featured img {
+  border: 5px;
+  border-color: #98ADA6;
+  border-style: solid;
+  margin-top: 0;
+  
+}
+
+h2 {
+  color: #6F7F7A;
+  font-size: 2em;
+}
+
+h2 {
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#press {
+  margin-bottom: 20px;
+}
+
+#press img {
+  border: 5px;
+  color: #ccc;
+  border-style: solid;
+  padding: 1px;
+
+}
+
+#press img:hover {
+  border: 5px;
+  border-color: #6F7F7A;
+  border-style: solid; 
+}
+
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif; 
+  margin: 0;
+  display: block;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
+
+div {
+  display: block;
+}
+
+footer {
+  text-align: right;
+  background: #fff;
+  display: block;
+}
+ .small {
+  font-size: 0.8em;
+ }
+
 
 /* Write all remaining styles here */
