@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  color: rgb(138, 156, 149)
+}
+
+h1:hover{
+  color: rgb(95, 107, 102);
+}
+
+#necklace {
+  border: 5px rgb(152, 173, 166) solid;
+}
+
+h2 {
+  color: rgb(138, 156, 149);
+}
+
+p {
+  color: rgb(67, 67, 67);
+}
+
+a img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+a:hover img {
+  border: 5px rgb(95, 107, 102) solid;
+  padding: 1px;
+
+}
+
+#press {
+  margin-bottom: 20px;
+
+}
+
+#copyright {
+  color: rgb(71, 67, 67);
+}
