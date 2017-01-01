@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,105 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+	display: block;
+	font-weight: bold;
+}
+
+#img-border {
+	border: 5px;
+	border-color: rgb(152,173,166);
+	border-style: solid;
+}
+
+p a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	float: right;
+}
+
+.borders {
+	border: 4px;
+	border-color: rgb(152,173,166);
+	border-style: solid;
+	display: inline;
+
+}
+
+#press img {
+	border: 3px;
+	border-color: #cccccc;
+	border-style: solid;
+	padding: 1px;
+}
+
+
+/*////// LAYOUT //////*/
+
+.col-1 {
+	float: left;
+	width: 22.5%;
+	background-color: #ccc;
+	display: inline;
+}
+
+.col-2 {
+	float: left;
+}
+
+.col-3 {
+	float: left;
+}
+
+.col-4 {
+
+}
+
+[class*="col-"] {
+	margin-left: 1%;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+.small {
+	font-size: .8em;
+}
