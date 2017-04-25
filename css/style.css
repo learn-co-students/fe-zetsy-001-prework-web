@@ -1,13 +1,21 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: Baskerville;
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +25,87 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+header {
+	display: block;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+header h1:hover {
+	color: #6F7F7A;
+}
+
+img {
+	border: 5px solid #CCCCCC;
+}
+
+section.content * {
+	margin-bottom: 25px;
+	color: #6F7F7A;
+}
+
+section.content img {
+	margin-bottom: 25px;
+	border-color: #98ADA6;
+}
+
+section.content a {
+	color: #3083BC;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+section.content p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+section.press * {
+	margin-bottom: 25px;
+}
+
+section.press img {
+	border-color: #CBCBCB;
+	margin-right: 10px;
+}
+
+section.press img:last-child {
+	margin-right: 0;
+}
+
+section.press img:hover {
+	border-color: #9BACA6;
+}
+
+h1{
+	color: #98ADA6;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Baskerville';
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 32px;
+	color: #6F7F7A;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer {
+	padding-bottom: 20px;
+}
+
+footer p {
+	display: block;
+	float: right;
+	color: #6F7F7A;
+	font-size: 12px;
+}
