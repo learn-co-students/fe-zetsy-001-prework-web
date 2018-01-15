@@ -2,6 +2,11 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+  font-family: 'Baskerville';
+  src: 'fonts/Baskerville.ttc';
+}
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +23,75 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Baskerville', serif;
+  color: rgba(155, 167, 163, 1);
+  font-size: 50px
+}
+
+img[alt="necklace"] {
+  border: 5px solid rgba(157, 171, 166, 1);
+}
+
+h2 {
+  color: rgba(116, 124, 118, 1);
+}
+
+p {
+  color: rgba(57, 56, 65, 1);
+}
+
+.logos {
+  align: center;
+}
+
+img[alt="nmai logo"] {
+  border: 5px solid rgba(203, 205, 204, 1);
+}
+
+img[alt="times logo"] {
+  border: 5px solid rgba(203, 205, 204, 1);
+}
+
+img[alt="sedona logo"] {
+  border: 5px solid rgba(203, 205, 204, 1);
+}
+
+img[alt="bergdorf logo"] {
+  border: 5px solid rgba(203, 205, 204, 1);
+}
+
+img[alt="nmai logo"]:hover {
+  border: 5px solid rgba(113, 127, 122, 1);
+}
+
+img[alt="times logo"]:hover {
+  border: 5px solid rgba(113, 127, 122, 1);
+}
+
+img[alt="sedona logo"]:hover {
+  border: 5px solid rgba(113, 127, 122, 1);
+}
+
+img[alt="bergdorf logo"]:hover {
+  border: 5px solid rgba(113, 127, 122, 1)
+}
+
+/*
+img:hover {
+  border: 5px solid rgba(113, 127, 122, 1);
+}
+*/
+
+p[class="copyright"] {
+  text-align: right;
+  font-size: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
