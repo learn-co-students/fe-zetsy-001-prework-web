@@ -17,4 +17,64 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+header h1{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+}
+
+header a{
+	color: #9CABA6;
+	text-decoration: none;
+}
+
+a {
+	background: transparent;
+	text-decoration: none;
+	color: #4B86B6;
+}
+
+p {
+	color: #555;
+	font-size:1em;
+	margin: 0 0 20px 0;
+
+}
+img {
+	border: 5px rgb(152,173,166) solid;
+	
+}
+
+.piclink{
+	padding: 1px;
+	transition: border-color 0.5s ease;
+	border-color: #ccc;
+}
+
+.piclink:hover{
+	border-color: #70817B
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: normal;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+
+footer p {
+	float: right;
+}
+.small {
+	font-size: 0.75em;
+}
+
+section {
+	margin-bottom: 20px;
+}
