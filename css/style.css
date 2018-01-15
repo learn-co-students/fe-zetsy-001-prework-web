@@ -18,3 +18,27 @@ body {
 }
 
 /* Write all remaining styles here */
+.logo{
+	font-size: 4em;
+	color: gray;
+}
+#section_a img{
+	border: 4px solid gray; 
+}
+.lead {
+	font-size: 2.7em;
+	color: gray;
+}
+footer img {
+	cursor: pointer;
+	border: 2.5px solid gray;
+}
+footer img:hover{
+	border: 2.5px solid black;
+}
+a{
+	text-decoration: none;
+}
+.copy {
+	float: right;
+}
