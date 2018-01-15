@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#title {
+    font-size: 80px;
+    color: gray;
+}
+
+#image {
+    border-style: solid;
+    border-width: 4px;
+    border-color: gray;
+}
+
+#imageLogo {
+    border-style: solid;
+    border-width: 4px;
+    border-color: gray;
+    -webkit-transition: border-color 0.5s ease-out 0.0s;
+    -moz-transition: border-color 0.5s ease-out 0.0s;
+    -o-transition: border-color 0.5s ease-out 0.0s;
+    transition: border-color 0.5s ease-out 0.0s;
+}
+
+#imageLogo:hover {
+    border-color: red;
+}
+
+#sectionHeading {
+    font-size: 40px;
+    color: gray;
+}
+
+p.basicParagraph {
+    color: gray;
+}
+
+
+
+
+
+
