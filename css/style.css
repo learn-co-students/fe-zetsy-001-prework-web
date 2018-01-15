@@ -17,4 +17,32 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+h1 {
+  color:rgba(153,168,163,1);
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+}
+
+h2 {
+  color:rgba(111,127,122,1);
+  font-size: 2em;
+  font-family: 'Times New Roman',serif;
+}
+
+a {
+  text-decoration:none;
+  color:#1783bb;
+}
+
+img {
+  border: 5px #ccc solid;
+  padding:1px;
+}
+
+.small {
+  font-size:0.8em;
+  color: #555;
+  text-align:right;
+}
