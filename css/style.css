@@ -4,17 +4,61 @@
 
 /*////////// Global Styles //////////*/
 
-body {
+html, body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	height:100%;
+	min-height: 100%;
+	width:100%;
+	margin:0;
+	padding:0;
 }
 
 .wrapper {
-	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	width: 960px;
 }
 
 /* Write all remaining styles here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url('../fonts/Baskerville.ttc');
+}
+
+h1{
+	font-family: 'Baskerville', serif;
+	color: RGB(154,173,167);
+	border-bottom: 1px solid RGB(203,203,203);
+	padding-bottom:10px;
+	margin-bottom:5px;
+	margin-top:0;
+	font-size: 5em;
+}
+
+h1 a:hover{
+	color: RGB(111,127,122);
+}
+
+h2{
+	color: RGB(104,133,117);
+}
+
+#main-img {
+	margin-top:0;
+	border: 5px solid RGB(153,172,167);
+}
+
+#press-imgs img{
+	border: 5px solid RGB(204,204,204);
+}
+
+#press-imgs img:hover{
+	border: 5px solid RGB(111,127,122);
+}
+
+footer p{
+	text-align:right;
+}
