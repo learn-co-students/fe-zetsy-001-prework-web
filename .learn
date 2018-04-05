@@ -9,4 +9,6 @@ tags:
   - typography
   - color
   - kids
+tests:
+ - green_onion
 resources: 4
