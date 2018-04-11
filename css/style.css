@@ -18,3 +18,55 @@ body {
 }
 
 /* Write all remaining styles here */
+
+
+h1 {
+  font-size: 5em;
+  font-family: 'New Times Roman', serif;
+  color: rgb(100,100,100);
+}
+
+h2 {
+  font-family: 'New Times Roman', serif;
+  color: rgb(100,100,100);
+  font-size: 2em;
+}
+
+p  {
+  font-family: 'New Times Roman', serif;
+  color: black;
+  font-size: 1em;
+}
+
+header a {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: red;
+}
+
+#featured img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+  color: blue;
+  text-decoration: none;
+}
+
+#featured a:hover {
+  text-decoration: underline;
+}
+
+#press img:hover {
+  border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+  text-align: right;
+  background: #fff;
+}
+
+
