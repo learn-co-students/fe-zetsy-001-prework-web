@@ -8,7 +8,10 @@ tags:
   - fonts
   - typography
   - color
+<<<<<<< HEAD
   - kids
 tests:
  - green_onion
+=======
+>>>>>>> master
 resources: 4
