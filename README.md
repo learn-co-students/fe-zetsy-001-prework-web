@@ -23,7 +23,6 @@ your own HTML & CSS from scratch to match the mockup image:
 1. Use the text and suggested images listed in `SOURCE.md` to fill in the content for `index.html`
 2. Use `css/style.css` to write the CSS code necessary to make your your site page look like the example shown
 3. To match the colors, you can eye-drop colors using [Digital Color Meter App](http://www.techrepublic.com/blog/apple-in-the-enterprise/discover-the-digitalcolor-meter-tool-on-your-mac/#) if you are using OSX, or a program like [ShareX](https://getsharex.com/) for Windows
-
 4. BONUS: Add CSS transitions for the mouse hover events. See: [http://css-tricks.com/almanac/properties/t/transition/](http://css-tricks.com/almanac/properties/t/transition/)
 
 **Note:** If you get stuck, you can use the Developer Tools to inspect the code at the
