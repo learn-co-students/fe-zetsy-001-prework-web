@@ -26,4 +26,5 @@ Press
 [sedona-logo.png]<!-- links to: http://www.sedonamonthly.com -->
 [bergdorf-logo.png]<!-- links to: http://www.bergdorfgoodman.com/ -->
 
-<!-- paragraph -->&copy; 2014 Zetsy, All Rights Reserved.
+<!-- paragraph -->
+&copy; 2014 Zetsy, All Rights Reserved.
