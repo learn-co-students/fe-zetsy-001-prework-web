@@ -31,6 +31,7 @@ example](http://learn-co-curriculum.github.io/fe-zetsy/). This lab has less
 direction than previous labs. As programmers in training, you are expected to
 use your Google-Fu to complete the challenge!
 
+
 ## Resources
 
  * [Zetsy live page example](http://learn-co-curriculum.github.io/fe-zetsy/)
