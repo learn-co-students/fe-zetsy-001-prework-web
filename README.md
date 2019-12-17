@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This lab challenges you asks you to build an Etsy clone, 'Zetsy', by writing
+This lab challenges you to build an Etsy clone, 'Zetsy', by writing
 your own HTML & CSS from scratch to match the mockup image:
 
 
